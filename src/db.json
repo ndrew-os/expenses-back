@@ -1,0 +1,10 @@
+{
+  "expenses": [
+    {
+      "amount": 12000,
+      "category": "Others",
+      "date": "12-03-2040",
+      "id": 1
+    }
+  ]
+}
