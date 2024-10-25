@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 app.use(
     cors({
-        methods: "GET, PATCH, POST, DELETE",
+        methods: "GET, PATCH, PUT, POST, DELETE",
         origin: '*',
         optionsSuccessStatus: 200,
         credentials: true,
