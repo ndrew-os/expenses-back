@@ -55,7 +55,7 @@ app.get('/expenses', (req, res) => {
   });
   
   // Ruta para actualizar un gasto existente
-  app.put('/expenses/:id', (req, res) => {
+  app.patch('/expenses/:id', (req, res) => {
     const { id } = req.params;
     const updatedExpense = req.body;
   
